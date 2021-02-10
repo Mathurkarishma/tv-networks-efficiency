@@ -62,19 +62,34 @@ To get a local copy up and running, download the `Analyst_Dataset` Excel file an
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-The code guides you through the following:
+The first step is cleaning up the data.  We intend to create a report that shows calculations of the below per network.  We need to extract important information from each dataset in a format desired for the calculations.
 
-1. Impo
+* Cost per Visitor -> Spend/Lift (low is desired)
+* Conversion Rate -> Purchases/Lift (high is desired)
+* Cost per Acquisition (CPA) -> Spend/Purchases (low is desired)
 
+The output of the code is the monthly report, shown below, with the three calculations.
 
-<img src="images/report.PNG" alt="report">
+<img src="images/report.JPG" alt="report">
 
 <!-- CONCLUSION -->
 ## Conclusion
 
-The 
+A few takeaways with each of the calculations are written below.
 
+Cost per Visitor ranges between ~$3 - $70
+* Lowest cost is desired
+* Science and Comedy Central networks are the highest outlier CPV’s
 
+Conversion Rate ranges between ~0.2% - 4%
+* Higher rate is desired
+* Majority rates are above 1% except Willow TV, One America News Network, Dish Network, Zee TV, and Star Plus
+
+Cost per Acquisition (CPA) ranges between ~$400 - $5,000
+* Lowest cost is desired
+* CNBC has unusually low CPA
+
+The guidance includes removing 4 networks.  Comedy Central has a good conversion rate, but cost per visitor and CPA are both too high.  Willow TV, One America News Network, and Zee TV have a poor conversion rate and very high CPA.  It can be recommended to spend on 3 networks.  CNBC, MSNBC, and CNN have a low cost per visitor and CPA and have a higher conversion rate.
 
 <!-- CONTACT -->
 ## Contact
