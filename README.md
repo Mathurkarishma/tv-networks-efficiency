@@ -45,7 +45,7 @@
 
 We will be speaking into 3 different datasets.  Client XYZ advertises their products on several TV networks with airing information and survey data after customers make their purchases.  We will be reviewing these using a lookup table and ultimately put it into a report format through Python.  There will be guidance on the cost to acquire a customer through TV and the most cost-efficient networks so Client XYZ can determine where to increase or decrease spending.  The survey looks like the below image.
 
-<img src="images/survey.PNG" alt="survey">
+<img src="images/survey.png" alt="survey">
 
 
 ### Built With
