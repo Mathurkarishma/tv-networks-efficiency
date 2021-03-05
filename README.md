@@ -57,7 +57,7 @@ We will be speaking into 3 different datasets.  Client XYZ advertises their prod
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running, download the `Analyst_Dataset` Excel file and the `TV_Networks` Python file. Then run the code in an IDE software, such as Spyder.  Save them in the same folder.
+To get a local copy up and running, download the `Analyst_Dataset.xlsx` Excel file and the `TV_Networks.py` Python file. Then run the code in an IDE software, such as Spyder.  Save them in the same folder.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
